@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "id": "@shopgate-project/hide-coupon-field",
+  "components": [
+    {
+      "id": "CouponField",
+      "type": "portals",
+      "path": "frontend/components/CouponField",
+      "target": "cart.coupon-field"
+    }
+  ],
+  "configuration": {
+    "notice": {
+      "type": "admin",
+      "destination": "frontend",
+      "default": "",
+      "params": {
+        "required": false,
+        "type": "text",
+        "label": "Notice"
+      }
+    }
+  }
+}
